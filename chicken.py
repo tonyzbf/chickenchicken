@@ -32,8 +32,8 @@ PREFIX = 'https://www.youtube.com/watch?v='
 session: aiohttp.ClientSession = None
 
 SVG = """
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920px" height="1200px"
-    viewBox="0 0 1920px 1200px">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 1920 1200">
     <style>
         .tile {
             fill: #245093;
@@ -43,7 +43,7 @@ SVG = """
             fill-opacity: 30%%;
         }
     </style>
-    <image href="chicken_.png" WIDTH="1920" HEIGHT="1200" ALT="" />
+    <image href="doug.jpg" WIDTH="1920" HEIGHT="1200" ALT="" />
     %(svg)s
 </svg>
 """
