@@ -1,0 +1,330 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 1920 1200" preserveAspectRatio="xMinYMin slice">
+    <style>
+        .tile {
+            fill: #245093;
+            fill-opacity: 0;
+        }
+
+        .tile:hover {
+            fill-opacity: 30%;
+        }
+    </style>
+    <image href="doug.jpg" WIDTH="1920" HEIGHT="1200" ALT="" />
+    <a href="https://www.youtube.com/watch?v=uDu_CTa1FfI" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="480px" y="480px">
+            <title>Skyrim but if Doug says "Dragon" 10 dragons spawn | Stream VOD 10/22/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=M83DHxL4S-o" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="720px" y="480px">
+            <title>Twitch Chat vs the GFUEL GAUNTLET 2 | GTA but Twitch Chat controls the mods | Stream VOD 10/15/2020
+            </title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=ju99ocZdzWI" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="1200px" y="480px">
+            <title>Twitch Chat Plays Red Dead Redemption 2 | Stream VOD 10/02/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=DjSu5UHOj8M" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="1680px" y="0px">
+            <title>Skyrim but 10 cheese wheels spawn in every 10 seconds | Stream VOD 09/12/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=F3I9BmQzdHo" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="1440px" y="480px">
+            <title>Doug vs. Twitch Chat Mario Party | Twitch Plays Hitman 2 | Stream VOD 08/28/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=0gDn9ffViFA" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="1440px" y="240px">
+            <title>Rosa the Otter's 21st Birthday Celebration | Stream VOD 08/26/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=MwWz_o348mw" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="1680px" y="240px">
+            <title>Doug vs. Twitch Chat Super Mario Odyssey | Twitch Plays Hitman 2 | Stream VOD 08/21/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=3QQ3S3FXLDg" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="0px" y="480px">
+            <title>Twitch Chat draws a Cat | Twitch chat goes Amazon Shopping | Stream VOD 06/23/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=Da0tQCXNWtQ" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="480px" y="0px">
+            <title>Skyrim but with 1 HP | Stream VOD 07/28/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=8ocUIwkRn7A" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="720px" y="240px">
+            <title>Skyrim but with 1 HP | Stream VOD 07/22/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=6mCaaaWgNRQ" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="960px" y="0px">
+            <title>SMO Speedrun but Twitch Chat is Player 2 | Stream VOD 07/15/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=UFRW9csqyMI" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="1200px" y="240px">
+            <title>Blind Mario 64 Speedrun | Stream VOD 07/10/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=_1hsFFaGjpI" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="1440px" y="0px">
+            <title>Skyrim but with 1 HP | Stream VOD 07/07/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=8rVs8eNs_Mg" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="240px" y="480px">
+            <title>TABS Battle Bets VIP Battle Royale | Stream VOD 07/03/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=p4ZkYAQFw80" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="960px" y="480px">
+            <title>Doug and Twitch Chat "play" Spelunky | Twitch Chat plays Peggle | Stream VOD 6/13/20</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=72vp93-EHrk" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="960px" y="240px">
+            <title>Skyrim but on 1 HP | Stream VOD 05/02/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=ilCmlLshCwg" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="0px" y="240px">
+            <title>Skyrim but with 1 HP | Stream VOD 06/18/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=_neND7UN058" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="240px" y="0px">
+            <title>Twitch Chat plays AI Dungeon | Twitch Chat vs Doug Mario Party | Stream VOD 06/09/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=7Jpr2w4cyNk" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="480px" y="240px">
+            <title>Twitch Chat Plays Peggle | SMO Speedrun | Stream VOD 05/05/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=72vp93-EHrk" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="720px" y="0px">
+            <title>Skyrim but on 1 HP | Stream VOD 05/02/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=vVBvuQ8a97c" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="240px" y="240px">
+            <title>TABS Battle Bets | Doug plays Jackbox | Stream VOD 03/28/20</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=vVBvuQ8a97c" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="1200px" y="0px">
+            <title>TABS Battle Bets | Doug plays Jackbox | Stream VOD 03/28/20</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=d0FWkO0LpRw" target="_blank">
+        <rect class="tile" width="240px" height="240px" x="0px" y="0px">
+            <title>Twitch Chat plays AI Dungeon | Wikipedia Speedrun Battle Bets | Stream VOD 03/24/20</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=gUHnsltZX1o" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="1760px" y="1040px">
+            <title>Doug plays Spelunky 2 | Stream VOD 09/15/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=eJ5glrATAfo" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="1600px" y="1040px">
+            <title>Twitch Chat vs. Peggle | TABS Battle Bets | Stream VOD 10/18/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=ju99ocZdzWI" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="1760px" y="880px">
+            <title>Twitch Chat Plays Red Dead Redemption 2 | Stream VOD 10/02/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=5BYsTO4wPBI" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="1760px" y="720px">
+            <title>Doug plays Half-Life Alyx VR | Stream VOD 03/26/20</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=DjSu5UHOj8M" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="800px" y="1040px">
+            <title>Skyrim but 10 cheese wheels spawn in every 10 seconds | Stream VOD 09/12/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=OT71I69jamQ" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="1440px" y="720px">
+            <title>Doug plays GTA and Minecraft | Stream VOD 09/06/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=F3I9BmQzdHo" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="1280px" y="880px">
+            <title>Doug vs. Twitch Chat Mario Party | Twitch Plays Hitman 2 | Stream VOD 08/28/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=0gDn9ffViFA" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="1440px" y="880px">
+            <title>Rosa the Otter's 21st Birthday Celebration | Stream VOD 08/26/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=0gDn9ffViFA" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="1600px" y="720px">
+            <title>Rosa the Otter's 21st Birthday Celebration | Stream VOD 08/26/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=wf54efurjTg" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="1280px" y="1040px">
+            <title>Skyrim but with 1 HP | Stream VOD 08/23/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=3PgD3NzVc5c" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="1440px" y="1040px">
+            <title>Twitch Chat vs Peggle FINALE | Doug plays Skyrim &amp; Barn Finders | Stream VOD 08/11/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=3PgD3NzVc5c" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="1600px" y="880px">
+            <title>Twitch Chat vs Peggle FINALE | Doug plays Skyrim &amp; Barn Finders | Stream VOD 08/11/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=Kl09mJhG3oQ" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="480px" y="1040px">
+            <title>Twitch Chat plays Peggle, AI Dungeon, and Mario Party | Stream VOD 08/03/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=_1hsFFaGjpI" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="1120px" y="1040px">
+            <title>Skyrim but with 1 HP | Stream VOD 07/07/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=VerySYMTOzk" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="1280px" y="720px">
+            <title>Test Day | Stream VOD 07/09/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=Da0tQCXNWtQ" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="1120px" y="880px">
+            <title>Skyrim but with 1 HP | Stream VOD 07/28/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=Kl09mJhG3oQ" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="800px" y="880px">
+            <title>Twitch Chat plays Peggle, AI Dungeon, and Mario Party | Stream VOD 08/03/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=3PgD3NzVc5c" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="160px" y="1040px">
+            <title>Twitch Chat vs Peggle FINALE | Doug plays Skyrim &amp; Barn Finders | Stream VOD 08/11/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=NY-CvhH0fVY" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="960px" y="1040px">
+            <title>Skyrim but with 1 HP | Stream VOD 07/14/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=LVvJoe2Mvoc" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="640px" y="1040px">
+            <title>Twitch Chat Tournament Part 3 | Stream VOD 07/04/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=7Jpr2w4cyNk" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="160px" y="720px">
+            <title>Twitch Chat Plays Peggle | SMO Speedrun | Stream VOD 05/05/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=7Jpr2w4cyNk" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="0px" y="880px">
+            <title>Twitch Chat Plays Peggle | SMO Speedrun | Stream VOD 05/05/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=8rVs8eNs_Mg" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="320px" y="720px">
+            <title>TABS Battle Bets VIP Battle Royale | Stream VOD 07/03/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=kEVCa4K-uDg" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="960px" y="720px">
+            <title>Skyrim but with 1 HP | Stream VOD 06/06/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=b7c2l9RwDIU" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="640px" y="720px">
+            <title>Skyrim but on 1 HP | Twitch Chat plays Peggle | Stream VOD 05/19/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=Dh1TaR_9wNY" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="960px" y="880px">
+            <title>Twitch Chat speedruns Pokemon Red 1st gym | Twitch Chat plays Peggle | Stream VOD 05/16/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=7Jpr2w4cyNk" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="320px" y="880px">
+            <title>Twitch Chat Plays Peggle | SMO Speedrun | Stream VOD 05/05/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=7Jpr2w4cyNk" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="1120px" y="720px">
+            <title>Twitch Chat Plays Peggle | SMO Speedrun | Stream VOD 05/05/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=PWoGya8Kikc" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="0px" y="720px">
+            <title>SSBU Battle Bets | Twitch Plays Mario Party 7 | Stream VOD 04/25/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=PWoGya8Kikc" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="160px" y="880px">
+            <title>SSBU Battle Bets | Twitch Plays Mario Party 7 | Stream VOD 04/25/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=PWoGya8Kikc" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="320px" y="1040px">
+            <title>SSBU Battle Bets | Twitch Plays Mario Party 7 | Stream VOD 04/25/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=zGsOBwjrKb0" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="480px" y="720px">
+            <title>Skyrim Battle Bets | Super Mario Odyssey Speedrun | Stream VOD 04/07/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=zGsOBwjrKb0" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="800px" y="720px">
+            <title>Skyrim Battle Bets | Super Mario Odyssey Speedrun | Stream VOD 04/07/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=vVBvuQ8a97c" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="640px" y="880px">
+            <title>TABS Battle Bets | Doug plays Jackbox | Stream VOD 03/28/20</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=vVBvuQ8a97c" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="480px" y="880px">
+            <title>TABS Battle Bets | Doug plays Jackbox | Stream VOD 03/28/20</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=TM4bGNDWuok" target="_blank">
+        <rect class="tile" width="160px" height="160px" x="0px" y="1040px">
+            <title>Twitch Chat Tournament 2 | Stream VOD 03/31/20</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=A_iDdmBr63c" target="_blank">
+        <rect class="tile" width="120px" height="120px" x="1680px" y="600px">
+            <title>Doug plays Half Life Alyx 2 | Stream VOD 05/12/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=n926r9l5xYU" target="_blank">
+        <rect class="tile" width="120px" height="120px" x="1800px" y="480px">
+            <title>Doug plays Half Life Alyx | Stream VOD 09/02/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=n926r9l5xYU" target="_blank">
+        <rect class="tile" width="120px" height="120px" x="1680px" y="480px">
+            <title>Doug plays Half Life Alyx | Stream VOD 09/02/2020</title>
+        </rect>
+    </a>
+    <a href="https://www.youtube.com/watch?v=g1QRpmNoGpo" target="_blank">
+        <rect class="tile" width="120px" height="120px" x="1800px" y="600px">
+            <title>Skryim but every hit sends you flying | Stream VOD 09/30/2020</title>
+        </rect>
+    </a>
+</svg>
