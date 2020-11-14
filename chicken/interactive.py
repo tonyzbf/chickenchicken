@@ -47,7 +47,7 @@ SVG = """
         }
     </style>
     <image href="static/images/doug.jpg" width="1920" height="1200" alt=""/>
-    %(svg)s
+%(svg)s
 </svg>
 """
 TEMPLATE = """
