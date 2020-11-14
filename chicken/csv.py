@@ -22,7 +22,6 @@
 
 import asyncio
 from urllib.parse import urlsplit
-from xml.sax.saxutils import escape
 
 import simplejson as json
 import aiohttp
@@ -30,30 +29,6 @@ from bs4 import BeautifulSoup
 
 PREFIX = 'https://www.youtube.com/watch?v='
 session: aiohttp.ClientSession = None
-
-SVG = """
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-    viewBox="0 0 1920 1200">
-    <style>
-        .tile {
-            fill: #245093;
-            fill-opacity: 0;
-        }
-        .tile:hover {
-            fill-opacity: 30%%;
-        }
-    </style>
-    <image href="doug.jpg" WIDTH="1920" HEIGHT="1200" ALT="" />
-    %(svg)s
-</svg>
-"""
-TEMPLATE = """
-<a href="%(url)s" target="_blank">
-    <rect class="tile" width="%(dimension)dpx" height="%(dimension)dpx" x="%(x)dpx" y="%(y)dpx">
-        <title>%(title)s</title>
-    </rect>
-</a>
-"""
 
 webpages = {}
 
@@ -83,12 +58,6 @@ def get_tile(line: str):
     return {'x': int(x), 'y': int(y), 'url': url}
 
 
-def get_svg(info: dict, offset_x: int = 0, offset_y: int = 0):
-    info['x'] += offset_x
-    info['y'] += offset_y
-    return (TEMPLATE % {**info, 'title': escape(info['title'])}).strip()
-
-
 async def main():
     global session
     session = aiohttp.ClientSession()
@@ -109,10 +78,6 @@ async def main():
 
     with open('metadata.json', 'w+') as f:
         json.dump(webpages, f)
-
-    with open('map.svg', 'w+') as f:
-        elements = [get_svg(tile, offset_y=720 if tile['dimension'] == 160 else 0) for tile in tiles]
-        f.write(SVG % {'svg': '\n'.join(elements)})
 
     await session.close()
 

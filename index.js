@@ -1,11 +1,12 @@
 var inspectorElement = null
 var titleElement = null
 var subscriberElement = null
+var tile
 
 const records = {}
 const debug = false
 const current = { id: null }
-const touchInfo = { id: null }
+const touchInfo = { element: null }
 
 window.addEventListener('DOMContentLoaded', () => {
     inspectorElement = document.getElementById('inspector')
@@ -41,9 +42,9 @@ function hover(ev) {
 
 function hover2(ev) {
     let tile = ev.currentTarget
-    if (touchInfo.id != tile.id) {
+    if (touchInfo.element !== tile) {
         ev.preventDefault()
-        touchInfo.id = tile.id
+        touchInfo.element = tile
     }
     hover(ev)
 }

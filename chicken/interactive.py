@@ -32,17 +32,29 @@ SVG = """
             fill: #245093;
             fill-opacity: 0;
         }
-        .tile:hover {
+        /* .tile:hover {
             fill-opacity: 30%%;
+        } */
+        .entry image {
+            visibility: hidden;
+            opacity: 0;
+            transition: visibility 0s, opacity 0.5s linear;
+            -webkit-transition: visibility 0.5s linear, opacity 0.5s linear;
+        }
+        .entry:hover image {
+            visibility: visible;
+            opacity: 1;
         }
     </style>
-    <image href="doug.jpg" WIDTH="1920" HEIGHT="1200" ALT="" />
+    <image href="static/images/doug.jpg" width="1920" height="1200" alt=""/>
     %(svg)s
 </svg>
 """
 TEMPLATE = """
 <a href="%(url)s" target="_blank" id="tile-%(x)d-%(y)d" class="entry"
     data-title="%(title)s" data-subscriber="%(subscriber)s">
+    <image href="static/images/tile-%(x)d-%(y)d.gif"
+        width="%(dimension)dpx" height="%(dimension)dpx" x="%(x)dpx" y="%(y)dpx"/>
     <rect class="tile" width="%(dimension)dpx" height="%(dimension)dpx" x="%(x)dpx" y="%(y)dpx">
         <title>%(title)s</title>
     </rect>
@@ -119,17 +131,3 @@ def get_svg(rects: list, debug=False):
 
 def update_rect(info: dict):
     info.setdefault('subscriber', '')
-
-
-def main():
-    metadata = load('metadata.json')
-    subscribers = load('subscribers.json')
-    combine(metadata, subscribers)
-    rects = metadata_to_rects(metadata)
-    with open('sources1.svg', 'w+') as f:
-        f.write(get_svg(rects, False))
-    dump(metadata, 'metadata1.json')
-
-
-if __name__ == '__main__':
-    main()
