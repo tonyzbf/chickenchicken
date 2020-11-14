@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400;1,900&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="index.js" type="text/javascript"></script>
     <title>DougDoug: Every chicken sub alert ever</title>
     <style>
         #title {
@@ -23,7 +26,6 @@
         #sources {
             background-image: url("doug.jpg");
             width: 100%;
-            margin-bottom: 2rem;
         }
 
         #yt-embed {
@@ -41,9 +43,40 @@
             width: 100%;
             height: 100%;
         }
-        
+
         strong {
             color: #fc7414;
+        }
+
+        #inspector {
+            margin-bottom: 2rem;
+        }
+
+        #inspector p {
+            margin: 0.4rem 0;
+            line-height: 1.2rem;
+        }
+
+        #inspector-title {
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        #inspector-subscriber {
+            font-weight: 700;
+            color: #46acdb;
+        }
+
+        .concealed {
+            opacity: 0;
+        }
+
+        .debug {
+            display: none;
+        }
+
+        article {
+            margin-bottom: 6rem;
         }
     </style>
 </head>
@@ -51,15 +84,30 @@
 <body>
     <article>
         <h1 id="title">Every chicken sub alert ever</h1>
-        <h4>from <strong><a href="https://www.twitch.tv/dougdougw" target="_blank">DougDoug's</a></strong> Twitch streams</h4>
+        <h4>from <strong><a href="https://www.twitch.tv/dougdougw" target="_blank">DougDoug's</a></strong> Twitch
+            streams</h4>
         <h3>Watch the video:</h3>
         <div id="yt-embed">
             <iframe src="https://www.youtube-nocookie.com/embed/XmFCezPd1TY" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
-        <h3>Click on a Doug below to go to the stream VOD</h3>
-        <object type="image/svg+xml" data="sources.svg" id="sources" alt="63 Dougs 1 image"></object>
+        <h3>Chicken Hall of Fame</h3>
+        <p>Hover on a Doug below to see who subbed for 12 months in that stream, and click to watch the VOD.</p>
+        <div id="sources-container">
+            <object type="image/svg+xml" data="sources.svg" id="sources" alt="63 Dougs 1 image"></object>
+            <div id="inspector" class="hidden">
+                <p>Starring <span id="inspector-subscriber"></span> as chicken</p>
+                <p id="inspector-title"></p>
+            </div>
+        </div>
+        <form action="" method="get" id="inspector" class="debug">
+            <label for="subscriber">subscriber</label>
+            <input type="text" id="subscriber" name="subscriber">
+            <label for="timestamp">timestamp</label>
+            <input type="text" id="timestamp" name="timestamp">
+            <button type="button" id="save-info">Save</button>
+        </form>
         <p>All videos sourced from <strong><a href="https://youtube.com/channel/UCzL0SBEypNk4slpzSbxo01g">DougDoug VOD
                     Channel</a></strong>.
             <br>DougDoug is the copyright holder to all source videos used in this compilation.</p>
