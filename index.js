@@ -5,6 +5,7 @@ var subscriberElement = null
 const records = {}
 const debug = false
 const current = { id: null }
+const touchInfo = { id: null }
 
 window.addEventListener('DOMContentLoaded', () => {
     inspectorElement = document.getElementById('inspector')
@@ -18,6 +19,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 entry.addEventListener('click', select)
             } else {
                 entry.addEventListener('mouseenter', hover)
+                entry.addEventListener('touchstart', hover2)
             }
         }
     })
@@ -35,6 +37,15 @@ function hover(ev) {
     titleElement.innerText = title
     subscriberElement.innerText = subscriber
     inspectorElement.classList.remove('hidden')
+}
+
+function hover2(ev) {
+    let tile = ev.currentTarget
+    if (touchInfo.id != tile.id) {
+        ev.preventDefault()
+        touchInfo.id = tile.id
+    }
+    hover(ev)
 }
 
 function unhover(ev) {
