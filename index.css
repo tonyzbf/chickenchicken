@@ -1,0 +1,65 @@
+#title {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+h4 {
+    margin-top: 1rem;
+    font-weight: 500;
+    color: #d3d3d3;
+}
+
+#sources {
+    width: 100%;
+}
+
+#yt-embed {
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin-bottom: 5rem;
+}
+
+#yt-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+strong {
+    color: #fc7414;
+}
+
+#inspector {
+    margin-bottom: 2rem;
+}
+
+#inspector p {
+    margin: 0.4rem 0;
+    line-height: 1.2rem;
+}
+
+#inspector-title {
+    font-weight: 700;
+    font-style: italic;
+}
+
+#inspector-subscriber {
+    font-weight: 700;
+    color: #46acdb;
+}
+
+.concealed {
+    opacity: 0;
+}
+
+.debug {
+    display: none;
+}
+
+article {
+    margin-bottom: 6rem;
+}
