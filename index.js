@@ -1,53 +1,24 @@
 var inspectorElement = null
-var titleElement = null
-var subscriberElement = null
-var tile
 
 const records = {}
 const debug = false
 const current = { id: null }
-const touchInfo = { element: null }
 
 window.addEventListener('DOMContentLoaded', () => {
     inspectorElement = document.getElementById('inspector')
-    titleElement = document.getElementById('inspector-title')
-    subscriberElement = document.getElementById('inspector-subscriber')
-    document.getElementById('sources').addEventListener('load', (ev) => {
-        let graphic = ev.target.contentDocument
-        let entries = graphic.getElementsByClassName('entry')
-        for (let entry of entries) {
-            if (debug) {
-                entry.addEventListener('click', select)
-            } else {
-                entry.addEventListener('mouseenter', hover)
-                entry.addEventListener('touchstart', hover2)
-            }
-        }
-    })
+
     document.getElementById('sources-container').addEventListener('mouseleave', unhover)
     if (debug) {
-        document.getElementById('save-info').addEventListener('click', recordInfo)
+        document.getElementById('sources').addEventListener('load', (ev) => {
+            let graphic = ev.target.contentDocument
+            let entries = graphic.getElementsByClassName('entry')
+            for (let entry of entries) {
+                entry.addEventListener('click', select)
+            }
+        })
+        document.getElementById('save-info').addEventListener('click', recordInfo)    
     }
 })
-
-function hover(ev) {
-    let tile = ev.currentTarget
-    let title = tile.dataset.title
-    let subscriber = tile.dataset.subscriber
-    unhover(undefined)
-    titleElement.innerText = title
-    subscriberElement.innerText = subscriber
-    inspectorElement.classList.remove('hidden')
-}
-
-function hover2(ev) {
-    let tile = ev.currentTarget
-    if (touchInfo.element !== tile) {
-        ev.preventDefault()
-        touchInfo.element = tile
-    }
-    hover(ev)
-}
 
 function unhover(ev) {
     inspectorElement.classList.add('hidden')

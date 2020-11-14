@@ -46,6 +46,7 @@ SVG = """
             opacity: 1;
         }
     </style>
+    <script href="sources.js"></script>
     <image href="static/images/doug.jpg" width="1920" height="1200" alt=""/>
 %(svg)s
 </svg>
@@ -53,7 +54,8 @@ SVG = """
 TEMPLATE = """
 <a href="%(url)s" target="_blank" id="tile-%(x)d-%(y)d" class="entry"
     data-title="%(title)s" data-subscriber="%(subscriber)s">
-    <image href="static/images/tile-%(x)d-%(y)d.gif"
+    <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII="
+        data-href="static/images/tile-%(x)d-%(y)d.gif"
         width="%(dimension)dpx" height="%(dimension)dpx" x="%(x)dpx" y="%(y)dpx"/>
     <rect class="tile" width="%(dimension)dpx" height="%(dimension)dpx" x="%(x)dpx" y="%(y)dpx">
         <title>%(title)s</title>
