@@ -34,7 +34,8 @@ strong {
 }
 
 #inspector {
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+    height: 4rem;
 }
 
 #inspector p {

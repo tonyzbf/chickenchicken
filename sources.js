@@ -24,10 +24,9 @@ function hover(ev) {
     image.setAttribute('href', image.dataset.href)
     let title = tile.dataset.title
     let subscriber = tile.dataset.subscriber
-    unhover(undefined)
     titleElement.innerText = title
     subscriberElement.innerText = subscriber
-    inspectorElement.classList.remove('hidden')
+    showDetails(true)
 }
 
 function tap(ev) {
@@ -39,6 +38,15 @@ function tap(ev) {
     hover(ev)
 }
 
-function unhover(ev) {
-    inspectorElement.classList.add('hidden')
+function showDetails(show = true) {
+    let rows = inspectorElement.getElementsByTagName('p')
+    if (show) {
+        Array.prototype.forEach.call(rows, (e) => {
+            e.classList.remove('hidden')
+        })    
+    } else {
+        Array.prototype.forEach.call(rows, (e) => {
+            e.classList.add('hidden')
+        })    
+    }
 }

@@ -17,10 +17,8 @@
     <meta name="twitter:site" content="@benuttername">
     <meta name="twitter:creator" content="@benuttername">
     <meta name="twitter:title" content="Every chicken sub alert ever | DougDoug stream compilation">
-    <meta name="twitter:description"
-        content="Every chicken sub alert from DougDoug's Twitch streams.">
-    <meta name="twitter:image"
-        content="https://monotony113.github.io/chickenchicken/static/images/doug.jpg">
+    <meta name="twitter:description" content="Every chicken sub alert from DougDoug's Twitch streams.">
+    <meta name="twitter:image" content="https://monotony113.github.io/chickenchicken/static/images/doug.jpg">
 </head>
 
 <body>
@@ -28,36 +26,42 @@
         <h1 id="title">Every chicken sub alert ever</h1>
         <h4>from <strong><a href="https://www.twitch.tv/dougdougw" target="_blank">DougDoug's</a></strong> Twitch
             streams</h4>
-        <h3>Watch the video:</h3>
+
+        <h3>Watch the video</h3>
         <div id="yt-embed">
             <iframe src="https://www.youtube-nocookie.com/embed/XmFCezPd1TY" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
+
         <h3>Chicken Hall of Fame</h3>
         <p>Hover on a Doug below to see who subbed for 12 months in that stream, and click to watch the VOD.</p>
         <div id="sources-container">
             <object type="image/svg+xml" data="sources.svg" id="sources" alt="63 Dougs 1 image"></object>
-            <div id="inspector" class="hidden">
-                <p>Starring <span id="inspector-subscriber"></span></p>
-                <p id="inspector-title"></p>
+            <div id="inspector" class="">
+                <p class="hidden" id="inspector-title"></p>
+                <p class="hidden">Starring <span id="inspector-subscriber"></span></p>
             </div>
         </div>
-        <form action="" method="get" id="inspector" class="debug">
+
+        <form action="" method="get" id="sampler" class="debug">
             <label for="subscriber">subscriber</label>
             <input type="text" id="subscriber" name="subscriber">
             <label for="timestamp">timestamp</label>
             <input type="text" id="timestamp" name="timestamp">
             <button type="button" id="save-info">Save</button>
         </form>
+
+        <hr>
         <p>All videos sourced from <strong><a href="https://youtube.com/channel/UCzL0SBEypNk4slpzSbxo01g">DougDoug VOD
                     Channel</a></strong>.
             <br>DougDoug is the copyright holder to all source videos used in this compilation.</p>
         <h6>
-            This webpage is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">CC
+            This webpage is licensed under <a rel="license" target="_blank"
+                href="http://creativecommons.org/licenses/by-nc/4.0/">CC
                 BY-NC 4.0</a>.
             <br>
-            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank"><img
                     alt="Creative Commons License" style="border-width:0"
                     src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"></a>
         </h6>

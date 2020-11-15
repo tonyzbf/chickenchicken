@@ -7,7 +7,9 @@ const current = { id: null }
 window.addEventListener('DOMContentLoaded', () => {
     inspectorElement = document.getElementById('inspector')
 
-    document.getElementById('sources-container').addEventListener('mouseleave', unhover)
+    let sources = document.getElementById('sources')
+    sources.addEventListener('mouseleave', () => showDetails(false))
+
     if (debug) {
         document.getElementById('sources').addEventListener('load', (ev) => {
             let graphic = ev.target.contentDocument
@@ -20,8 +22,17 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 })
 
-function unhover(ev) {
-    inspectorElement.classList.add('hidden')
+function showDetails(show = true) {
+    let rows = inspectorElement.getElementsByTagName('p')
+    if (show) {
+        Array.prototype.forEach.call(rows, (e) => {
+            e.classList.remove('hidden')
+        })    
+    } else {
+        Array.prototype.forEach.call(rows, (e) => {
+            e.classList.add('hidden')
+        })    
+    }
 }
 
 function select(ev) {
