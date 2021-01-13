@@ -43,12 +43,12 @@ strong {
     line-height: 1.2rem;
 }
 
-#inspector-title {
+.inspector-title {
     font-weight: 700;
     font-style: italic;
 }
 
-#inspector-subscriber {
+.inspector-subscriber {
     font-weight: 700;
     color: #46acdb;
 }
