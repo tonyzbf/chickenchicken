@@ -146,21 +146,21 @@ ul ol {
   list-style: unset;
 }
 
-li {
+ul li {
   padding: 0;
   text-indent: -5px;
 }
-li:before {
+ul li:before {
   content: "-";
   position: relative;
   right: 5px;
 }
-li:before blockquote {
+ul li:before blockquote {
   margin: 0;
   padding: 0.2rem 0.4rem;
   border-radius: 4px;
 }
-li:last-of-type {
+ul li:last-of-type {
   margin-bottom: 0;
 }
 
